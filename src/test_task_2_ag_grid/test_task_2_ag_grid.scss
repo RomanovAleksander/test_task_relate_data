@@ -1,0 +1,50 @@
+$ag-icons-path: "../../node_modules/ag-grid-community/src/styles/icons/";
+
+.btnOn {
+  position: relative;
+  height: 183px;
+  width: 100%;
+  top: -217px;
+  opacity: 0;
+}
+
+.btnOff {
+  position: relative;
+  top: -549px;
+  left: -68px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all;
+  transition-duration: .2s;
+}
+
+.btnOff:hover {
+  background-color: black;
+  color: white;
+}
+
+.table_name {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.page {
+  width: 1002px;
+  margin: 50px auto;
+}
+
+.modal_window {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 802px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+}
+
+@import "../../node_modules/ag-grid-community/src/styles/ag-grid.scss";
+@import "../../node_modules/ag-grid-community/src/styles/ag-theme-balham.scss";
