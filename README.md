@@ -4,4 +4,4 @@ I used mockapi as a server for requesting data, but github blocks requests for e
 
 The	Application deployed as	a	standalone	running	application	on	Github.
 
-You can see his work here https://romanovaleksander.github.io/test_task_relate_data/
+You can see how it works here https://romanovaleksander.github.io/test_task_relate_data/
