@@ -31,6 +31,12 @@ $ag-icons-path: "../../node_modules/ag-grid-community/src/styles/icons/";
   margin-bottom: 5px;
 }
 
+.table_name_3 {
+  text-align: start;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
 .page {
   width: 1002px;
   margin: 50px auto;
@@ -44,6 +50,12 @@ $ag-icons-path: "../../node_modules/ag-grid-community/src/styles/icons/";
   border: 1px solid black;
   padding: 20px;
   background-color: white;
+}
+
+.table_tr {
+  overflow: hidden;
+  max-width: 141px;
+  height: 17px;
 }
 
 @import "../../node_modules/ag-grid-community/src/styles/ag-grid.scss";
